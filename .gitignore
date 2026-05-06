@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 模型权重 (太大不上传，通过weights/README.md说明下载方式)
+outputs/*.pth
+outputs/*.pt
+weights/*.pth
+weights/*.pt
+
+# TensorBoard 日志
+outputs/runs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 数据 (不上传数据集本身)
+data/raw/
+
+# 临时文件
+*.log
+*.tmp
